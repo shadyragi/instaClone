@@ -34,5 +34,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>The App ust have access to photo Gallery</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The App wants To Access Gps</string>
 </dict>
 </plist>
